@@ -6,6 +6,7 @@ MAINTAINER Matthew Cuyar <matt@enctypeapparel.com>
  #/
 RUN apk --no-cache --update --repository=http://dl-4.alpinelinux.org/alpine/edge/community add \
     nodejs \
+    nodejs-npm \
     yarn
 
 RUN mkdir -p /var/www

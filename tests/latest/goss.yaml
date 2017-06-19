@@ -1,6 +1,8 @@
 package:
   nodejs:
     installed: true
+  nodejs-npm:
+    installed: true
   yarn:
     installed: true
 http:
