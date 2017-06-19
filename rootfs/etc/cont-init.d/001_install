@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -f /var/www/package.json ] && [ ! "$(ls -A /var/www/node_modules)" ]; then
+    yarn install
+else
+    echo "No package.json file found in /var/www"
+    exit 1;
+fi

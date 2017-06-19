@@ -3,3 +3,9 @@ package:
     installed: true
   yarn:
     installed: true
+http:
+  http://localhost:8080:
+    status: 200
+    allow-insecure: false
+    no-follow-redirects: false
+    timeout: 5000

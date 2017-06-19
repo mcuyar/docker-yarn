@@ -12,4 +12,9 @@ RUN mkdir -p /var/www
 
 WORKDIR /var/www
 
+##/
+ # Copy files
+ #/
+COPY rootfs /
+
 EXPOSE 8080
